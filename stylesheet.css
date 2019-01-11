@@ -1,3 +1,8 @@
+/*selector{ property: value;}
+who{ what: how;}*/
+
+/*Form Styling*/
+
 body {
 
     background-color: teal;
@@ -12,6 +17,5 @@ a:visited,
 a:hover {
 
     color: light grey;
-    
-}
 
+}

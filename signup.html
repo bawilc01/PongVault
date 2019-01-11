@@ -3,27 +3,64 @@
     <title>PongVault | Sign Up</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-    
+
 <body>
         <section>
             <header>
                 <div>
-                    <a href="index.html"><header><h1>PongVault - Banner Placeholder</h1></a> 
-                </div>   
-                <div>    
-                    <a href="signup.html">Sign Up</a>
-                    <a href="challenges.html">Challenges</a>
-                    <a href="rankings.html">Rankings</a>
-                    <a href="about.html">About PongVault</a>
+                    <a href="index.html"><header><h1>PongVault - Banner Placeholder</h1></a>
+                </div>
+                <div>
+                  <a href="index.html">About PongVault</a>
+                  <a href="challenges.html">Challenges</a>
+                  <a href="rankings.html">Rankings</a>
+                  <a href="signup.html">Sign Up</a>
                 </div>
             </header>
         </section>
-        <section>
-            <h1>Form</h1>
-            <form action="index.html" method="post">
-
-
+        <section id="form">
+            <h1>Sign Up Form</h1>
+            <form action="/signup" method="POST">
+              <p>
+                <label for="first_name">First Name</label>
+              </p>
+              <p>
+                <input id="first_name" type="text" placeholder="First Name">
+              </p>
+              <p>
+                <label for="last_name">Last Name</label>
+              </p>
+              <p>
+                <input id="last_name" type="text" placeholder="Last Name">
+              </p>
+              <p>
+                <label for="email">Email</label>
+              </p>
+              <p>
+                <input id="email" type="email" placeholder="Email">
+              </p>
+              <p>
+                <label for="cr_username">Create Username</label>
+              </p>
+              <p>
+                <input id="cr_username" type="text" placeholder="Create Username">
+              </p>
+              <p>
+                <label for="cr_password">Create Password</label>
+              </p>
+              <p>
+                <input id="cr_password" type="password" placeholder="Create Password">
+              </p>
+              <p>
+                <label for="cf_pw">Confirm Password</label>
+              </p>
+              <p>
+                <input id="cf_pw" type="password" placeholder="Confirm Password">
+              </p>
+              <p>
+                <input type="Submit">
+              </p>
             </form>
         </section>
-  
+
 </body>
